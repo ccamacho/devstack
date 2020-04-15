@@ -130,7 +130,7 @@ function rpc_backend_add_vhost {
         fi
     else
         echo 'RPC backend does not support vhosts'
-        return 1
+        # return 1
     fi
 }
 
